@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Web</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:600|Baloo|Bitter:700|Fjalla+One|PT+Sans:700|Patua+One|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="area">
+        <div class="area-options">
+            <div class="options">
+                <strong>Pintar </strong> <input type="checkbox" id="checkPintar">
+            </div>
+            <div class="options">
+                <strong>Borrar </strong> <input type="checkbox" id="checkBorrar">
+            </div>
+            <div class="options">
+                <strong>Color </strong> <input type="color" id="color">
+            </div>
+            <div class="options">
+                <strong>Pincel size</strong>
+                <select id="size">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        </div>
+        <div class="area-container">
+            <canvas class="canvas" id="canvas" width="900" height="500"></canvas>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

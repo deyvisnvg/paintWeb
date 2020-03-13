@@ -1,0 +1,69 @@
+.area .canvas{
+    border: 1px solid blue;
+    width: 98%;
+    background: white;
+    border-radius: 20px;
+}
+
+.area .area-container {
+    display: flex;
+    justify-content: center;
+    background: #3f51b5;
+    max-width: 1030px;
+    margin: auto;
+}
+
+.area-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3f51b5;
+    max-width: 1030px;
+    margin: auto;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15.5px;
+}
+
+.area-options .options {
+    margin: 6px 10px;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.area-options .options:hover {
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 1024px){
+
+
+}
+
+@media screen and (max-width: 767px){
+    .area-options {
+        font-size: 14px;
+    }
+
+    .area .canvas{
+        /* height: 450px; */
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .area-options {
+        font-size: 12.5px;
+    }
+
+    .area .canvas{
+        /* height: 300px; */
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+
+}
